@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAVOR-PC</Machine>
+    <WindowsUser>davor</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\App2.exe">
+      <PackagePath>App2.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\App2.pdb">
+      <PackagePath>App2.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Azuriraj.xaml">
+      <PackagePath>Azuriraj.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\GlavnaForma.xaml">
+      <PackagePath>GlavnaForma.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Lista_zelje.xaml">
+      <PackagePath>Lista_zelje.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Naruciti_dobavljac.xaml">
+      <PackagePath>Naruciti_dobavljac.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Pregled_aktivne.xaml">
+      <PackagePath>Pregled_aktivne.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Pregled_arhiva.xaml">
+      <PackagePath>Pregled_arhiva.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Pregled_skladiste.xaml">
+      <PackagePath>Pregled_skladiste.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\Statistike.xaml">
+      <PackagePath>Statistike.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
