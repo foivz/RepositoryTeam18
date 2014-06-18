@@ -5,100 +5,74 @@
     <WindowsUser>davor</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>8B455194A5442366847C30382D1D2FAC78BBE2D0B010026FA3103A809F86DC89</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>3cb607a3-e53b-47a2-9f21-ff93d7fa67e6_1.0.0.0_neutral__x6vc2sqqh5kqr</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>3cb607a3-e53b-47a2-9f21-ff93d7fa67e6_x6vc2sqqh5kqr!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>3cb607a3-e53b-47a2-9f21-ff93d7fa67e6</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=davor</RegisteredPackagePublisher>
-    <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2014-06-16T22:38:05.621</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Velpro.exe">
       <PackagePath>Velpro.exe</PackagePath>
-      <Modified>2014-06-18T16:17:05.462</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Velpro.pdb">
       <PackagePath>Velpro.pdb</PackagePath>
-      <Modified>2014-06-18T16:17:05.437</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2012-03-15T18:42:52.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
-      <Modified>2014-06-16T21:05:41.773</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
-      <Modified>2014-06-18T16:15:08.756</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Azuriraj.xaml">
       <PackagePath>Azuriraj.xaml</PackagePath>
-      <Modified>2014-06-18T16:09:07.507</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
-      <Modified>2012-06-26T14:19:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\GlavnaForma.xaml">
       <PackagePath>GlavnaForma.xaml</PackagePath>
-      <Modified>2014-06-18T16:16:59.003</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Lista_zelje.xaml">
       <PackagePath>Lista_zelje.xaml</PackagePath>
-      <Modified>2014-06-16T22:15:06.914</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2014-06-18T16:03:25.376</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Naruciti_dobavljac.xaml">
       <PackagePath>Naruciti_dobavljac.xaml</PackagePath>
-      <Modified>2014-06-18T16:09:49.614</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Pregled_aktivne.xaml">
       <PackagePath>Pregled_aktivne.xaml</PackagePath>
-      <Modified>2014-06-18T16:14:35.515</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Pregled_arhiva.xaml">
       <PackagePath>Pregled_arhiva.xaml</PackagePath>
-      <Modified>2014-06-18T16:15:04.460</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Pregled_skladiste.xaml">
       <PackagePath>Pregled_skladiste.xaml</PackagePath>
-      <Modified>2014-06-18T16:08:06.589</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\Statistike.xaml">
       <PackagePath>Statistike.xaml</PackagePath>
-      <Modified>2014-06-18T16:15:38.622</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2014-06-16T21:59:13.061</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

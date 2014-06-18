@@ -21,7 +21,7 @@
     <Resource Language="EN-US" />
   </Resources>
   <Applications>
-    <Application Id="App" Executable="App2.exe" EntryPoint="App2.App">
+    <Application Id="App" Executable="Velpro.exe" EntryPoint="App2.App">
       <VisualElements DisplayName="App2" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="App2" ForegroundText="light" BackgroundColor="#464646">
         <DefaultTile ShowName="allLogos" />
         <SplashScreen Image="Assets\SplashScreen.png" />

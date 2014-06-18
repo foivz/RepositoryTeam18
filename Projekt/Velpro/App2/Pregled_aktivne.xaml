@@ -14,6 +14,9 @@
 
         <!-- TODO: Delete this line if the key AppName is declared in App.xaml -->
         <x:String x:Key="AppName">My Application</x:String>
+        <Color x:Key="Boja_teksta">#FFFFED00</Color>
+        <Color x:Key="Crvena_top">#FFF50000</Color>
+        <Color x:Key="Crvena_bot">#FFB60000</Color>
     </Page.Resources>
 
     <!--
@@ -24,8 +27,8 @@
     <Grid Style="{StaticResource LayoutRootStyle}">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFDC2121" Offset="0.857"/>
-                <GradientStop Color="#FF300D0D" Offset="1"/>
+                <GradientStop Color="#FFF50000" Offset="0.4"/>
+                <GradientStop Color="{StaticResource Crvena_dolje}" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
@@ -40,7 +43,11 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Pregled aktivnih želja" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Pregled aktivnih želja" Style="{StaticResource PageHeaderTextStyle}">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="#FFFFED00"/>
+                </TextBlock.Foreground>
+            </TextBlock>
         </Grid>
 
         <VisualStateManager.VisualStateGroups>

@@ -24,8 +24,8 @@
     <Grid Style="{StaticResource LayoutRootStyle}">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFDC2121" Offset="0.857"/>
-                <GradientStop Color="#FF300D0D" Offset="1"/>
+                <GradientStop Color="#FFF50000" Offset="0.4"/>
+                <GradientStop Color="#FFB60000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
@@ -39,20 +39,69 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Style="{StaticResource PageHeaderTextStyle}" Grid.ColumnSpan="2" Margin="116,0,34,4">
+            <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}" Foreground="#FFFFED00" BorderBrush="#FFFFED00" Background="#FFFFED00"/>
+            <TextBlock x:Name="pageTitle" Style="{StaticResource PageHeaderTextStyle}" Grid.ColumnSpan="2" Margin="116,0,34,4" Foreground="#FFFFED00">
             	<Run Text="Glavna Forma"/>
             	<LineBreak/>
             	<Run/>
             </TextBlock>
         </Grid>
-        <Button x:Name="PregledSkladiste" Content="Pregled stanja na skladištu" HorizontalAlignment="Left" Margin="113,26,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click_1" Height="206" Width="281" FontSize="20" Background="#FFFFE800" FontFamily="Segoe UI" Foreground="Black"/>
-        <Button Content="Pregled aktivnih narudžbi" HorizontalAlignment="Left" Margin="113,258,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Click="Button_Click_2" FontSize="20" Background="#FFFFE800" Foreground="Black"/>
-        <Button Content="Pregled arhive narudžbi" HorizontalAlignment="Left" Margin="443,26,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" FontSize="20" Click="Button_Click_3" Background="#FFFFE800" Foreground="Black"/>
-        <Button Content="Naručiti od dobavljača" HorizontalAlignment="Left" Margin="443,258,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" FontSize="20" Click="Button_Click_4" Background="#FFFFE800" Foreground="Black"/>
-        <Button Content="Statistike o narudžbama" HorizontalAlignment="Left" Margin="772,26,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Click="Button_Click_5" FontSize="20" Background="#FFFFE800" Foreground="Black"/>
-        <Button Content="Pregled liste želja" HorizontalAlignment="Left" Margin="772,258,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Background="#FFFFE800" FontSize="20" Foreground="Black" Click="Button_Click_7"/>
-        <Button Content="Ažurirati zaposlenike" HorizontalAlignment="Left" Margin="1091,26,0,0" Grid.Row="1" VerticalAlignment="Top" Height="438" Width="245" Click="Button_Click_6" Background="#FFFFE800" FontSize="20" Foreground="Black"/>
+        <Button x:Name="PregledSkladiste" Content="Pregled stanja na skladištu" HorizontalAlignment="Left" Margin="113,66,0,0" Grid.Row="1" VerticalAlignment="Top" Click="Button_Click_1" Height="206" Width="281" FontSize="20" Background="#FFFFED00" FontFamily="Segoe UI" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Pregled aktivnih narudžbi" HorizontalAlignment="Left" Margin="113,349,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Click="Button_Click_2" FontSize="20" Background="#FFFFED00" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Pregled arhive narudžbi" HorizontalAlignment="Left" Margin="443,66,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" FontSize="20" Click="Button_Click_3" Background="#FFFFED00" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Naručiti od dobavljača" HorizontalAlignment="Left" Margin="443,349,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" FontSize="20" Click="Button_Click_4" Background="#FFFFED00" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Statistike o narudžbama" HorizontalAlignment="Left" Margin="772,66,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Click="Button_Click_5" FontSize="20" Background="#FFFFED00" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Pregled liste želja" HorizontalAlignment="Left" Margin="772,349,0,0" Grid.Row="1" VerticalAlignment="Top" Height="206" Width="281" Background="#FFFFED00" FontSize="20" Foreground="Black" Click="Button_Click_7" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Ažurirati zaposlenike" HorizontalAlignment="Left" Margin="1092,66,0,0" Grid.Row="1" VerticalAlignment="Top" Height="489" Width="245" Click="Button_Click_6" Background="#FFFFED00" FontSize="20" Foreground="Black" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
 
         <VisualStateManager.VisualStateGroups>
 

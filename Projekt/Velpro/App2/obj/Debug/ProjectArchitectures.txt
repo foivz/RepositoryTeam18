@@ -1,1 +1,1 @@
-c:\Users\davor\Documents\Visual Studio 2012\Projects\App2\App2\App2.csproj;neutral
+C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\Velpro.csproj;neutral

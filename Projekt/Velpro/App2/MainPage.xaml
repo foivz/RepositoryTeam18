@@ -10,26 +10,55 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FF300D0D" Offset="1"/>
-                <GradientStop Color="#FFDC2121" Offset="0.857"/>
+                <GradientStop Color="#FFB60000" Offset="1"/>
+                <GradientStop Color="#FFF50000" Offset="0.4"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <TextBox x:Name="txtKor_Ime" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="20" TextChanged="TextBox_TextChanged_1" Margin="380,289,380,0"/>
-        <TextBlock x:Name="lblKor_ime" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Korisničko ime:" VerticalAlignment="Top" Margin="579,257,0,0" Height="32" Width="211" FontSize="30"/>
-        <TextBlock x:Name="lblLozinka" HorizontalAlignment="Left" TextWrapping="Wrap" Margin="636,344,0,392" Width="123" FontSize="30">
+        <TextBox x:Name="txtKor_Ime" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" TextChanged="TextBox_TextChanged_1" Margin="380,289,380,0" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Width="606">
+            <TextBox.RenderTransform>
+                <CompositeTransform/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock x:Name="lblKor_ime" TextWrapping="Wrap" Text="Korisničko ime:" VerticalAlignment="Top" Margin="578,257,577,0" Height="32" FontSize="30" Foreground="#FFFFED00" HorizontalAlignment="Center">
+            <TextBlock.Projection>
+                <PlaneProjection/>
+            </TextBlock.Projection>
+        </TextBlock>
+        <TextBlock x:Name="lblLozinka" TextWrapping="Wrap" Margin="621,344,622,392" FontSize="30" Foreground="#FFFFED00" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center">
+            <TextBlock.RenderTransform>
+                <CompositeTransform/>
+            </TextBlock.RenderTransform>
         	<Run Text="Lozinka:"/>
         	<LineBreak/>
         	<Run/>
         </TextBlock>
-        <TextBox x:Name="txtLozinka" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Height="20" TextChanged="TextBox_TextChanged_1" Margin="380,381,380,0" Padding="10,3,10,5"/>
-        <TextBlock x:Name="Prijava" HorizontalAlignment="Left" Margin="32,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="488" FontSize="75">
+        <TextBox x:Name="txtLozinka" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" TextChanged="TextBox_TextChanged_1" Margin="380,381,380,0" Padding="10,3,10,5" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Center" Width="606">
+            <TextBox.RenderTransform>
+                <CompositeTransform/>
+            </TextBox.RenderTransform>
+        </TextBox>
+        <TextBlock x:Name="Prijava" HorizontalAlignment="Left" Margin="32,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="108" Width="488" FontSize="75" Foreground="#FFFFED00">
         	<Run Text="Prijava"/>
         	<LineBreak/>
         	<Run/>
         </TextBlock>
-        <Button x:Name="btnPrijava" Content="Prijava" HorizontalAlignment="Left" Margin="380,455,0,0" VerticalAlignment="Top" Height="65" Width="297" Background="#FFD80808" FontSize="30" Click="btnPrijava_Click"/>
-        <Button x:Name="btnPrijava_Copy" Content="Odustani" HorizontalAlignment="Left" Margin="689,455,0,0" VerticalAlignment="Top" Height="65" Width="297" Background="#FFD80808" FontSize="30" Click="btnPrijava_Copy_Click"/>
-        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Margin="525,42,0,0" Width="357" FontSize="80" Foreground="#FFFFE800" FontWeight="Bold">
+        <Button x:Name="btnPrijava" Content="Prijava" HorizontalAlignment="Center" Margin="380,455,689,0" VerticalAlignment="Top" Height="65" Background="#FFD80808" FontSize="30" Click="btnPrijava_Click" RenderTransformOrigin="0.5,0.5" Width="297">
+            <Button.Projection>
+            	<PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+            	<CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="btnOdustani" Content="Odustani" HorizontalAlignment="Center" Margin="689,455,380,0" VerticalAlignment="Top" Height="65" Width="297" Background="#FFD80808" FontSize="30" Click="btnPrijava_Copy_Click" RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+            	<PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+            	<CompositeTransform/>
+            </Button.RenderTransform>
+        </Button>
+        <TextBlock TextWrapping="Wrap" VerticalAlignment="Top" Height="118" Margin="504,41,505,0" FontSize="80" Foreground="#FFFFED00" FontWeight="Bold" HorizontalAlignment="Center">
         	<Run Text="VELPRO"/>
         	<LineBreak/>
         	<Run/>

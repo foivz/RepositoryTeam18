@@ -24,8 +24,8 @@
     <Grid Style="{StaticResource LayoutRootStyle}">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFDC2121" Offset="0.857"/>
-                <GradientStop Color="#FF300D0D" Offset="1"/>
+                <GradientStop Color="#FFF50000" Offset="0.4"/>
+                <GradientStop Color="#FFB60000" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
@@ -40,7 +40,7 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
-            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Naručiti od dobavljača" Style="{StaticResource PageHeaderTextStyle}"/>
+            <TextBlock x:Name="pageTitle" Grid.Column="1" Text="Naručiti od dobavljača" Style="{StaticResource PageHeaderTextStyle}" Foreground="#FFFFED00"/>
         </Grid>
 
         <VisualStateManager.VisualStateGroups>

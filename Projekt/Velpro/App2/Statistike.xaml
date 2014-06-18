@@ -24,8 +24,8 @@
     <Grid Style="{StaticResource LayoutRootStyle}">
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFDC2121" Offset="0.857"/>
-                <GradientStop Color="#FF300D0D" Offset="1"/>
+                <GradientStop Color="{StaticResource Crvena_gore}" Offset="0.4"/>
+                <GradientStop Color="{StaticResource Crvena_dolje}" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
         <Grid.RowDefinitions>
@@ -41,6 +41,9 @@
             </Grid.ColumnDefinitions>
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Style="{StaticResource PageHeaderTextStyle}">
+                <TextBlock.Foreground>
+                    <SolidColorBrush Color="{StaticResource Žuti_tekst}"/>
+                </TextBlock.Foreground>
             	<Run Text="Statistika "/>
             	<Run Text="o narudžbama"/>
             </TextBlock>

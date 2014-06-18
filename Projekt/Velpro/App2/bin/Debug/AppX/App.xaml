@@ -14,6 +14,10 @@
                  -->
                 <ResourceDictionary Source="Common/StandardStyles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="Color1">#FFF50000</Color>
+            <Color x:Key="Crvena_gore">#FFF50000</Color>
+            <Color x:Key="Crvena_dolje">#FFB60000</Color>
+            <Color x:Key="Žuti_tekst">#FFFFED00</Color>
 
         </ResourceDictionary>
     </Application.Resources>
