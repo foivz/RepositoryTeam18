@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DAVOR-PC</Machine>
+    <WindowsUser>davor</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>130A01ECF797FADF02D913BD2F229888DE1E651E25361B1FB6ED3457EEAC2FD7</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c7df8f1f-58fa-42d8-9cf2-10f7a227ddb5_1.0.0.0_neutral__x6vc2sqqh5kqr</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c7df8f1f-58fa-42d8-9cf2-10f7a227ddb5_x6vc2sqqh5kqr!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c7df8f1f-58fa-42d8-9cf2-10f7a227ddb5</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=davor</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-06-19T18:17:50.381</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.exe">
+      <PackagePath>Desktop Velpro.exe</PackagePath>
+      <Modified>2014-06-19T18:37:21.970</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.pdb">
+      <PackagePath>Desktop Velpro.pdb</PackagePath>
+      <Modified>2014-06-19T18:37:21.886</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2014-06-19T17:35:35.909</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-06-19T18:17:45.577</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Azuriraj.xaml">
+      <PackagePath>Azuriraj.xaml</PackagePath>
+      <Modified>2014-06-19T18:37:15.132</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_korisnika.xaml">
+      <PackagePath>Brisi_korisnika.xaml</PackagePath>
+      <Modified>2014-06-19T18:26:02.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_zaposlenika.xaml">
+      <PackagePath>Brisi_zaposlenika.xaml</PackagePath>
+      <Modified>2014-06-19T18:25:51.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_korisnika.xaml">
+      <PackagePath>Dodaj_korisnika.xaml</PackagePath>
+      <Modified>2014-06-19T18:25:45.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_zaposlenika.xaml">
+      <PackagePath>Dodaj_zaposlenika.xaml</PackagePath>
+      <Modified>2014-06-19T18:27:08.159</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Glavna_forma.xaml">
+      <PackagePath>Glavna_forma.xaml</PackagePath>
+      <Modified>2014-06-19T18:17:43.022</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Lista_zelja.xaml">
+      <PackagePath>Lista_zelja.xaml</PackagePath>
+      <Modified>2014-06-19T18:27:49.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-06-19T18:19:40.349</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Naruciti_dobavljac.xaml">
+      <PackagePath>Naruciti_dobavljac.xaml</PackagePath>
+      <Modified>2014-06-19T18:28:34.218</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_aktivne.xaml">
+      <PackagePath>Pregled_aktivne.xaml</PackagePath>
+      <Modified>2014-06-19T18:29:19.984</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_arhiva.xaml">
+      <PackagePath>Pregled_arhiva.xaml</PackagePath>
+      <Modified>2014-06-19T18:29:59.423</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_skladiste.xaml">
+      <PackagePath>Pregled_skladiste.xaml</PackagePath>
+      <Modified>2014-06-19T18:30:39.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Statistike.xaml">
+      <PackagePath>Statistike.xaml</PackagePath>
+      <Modified>2014-06-19T18:31:19.196</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-06-19T18:17:50.154</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

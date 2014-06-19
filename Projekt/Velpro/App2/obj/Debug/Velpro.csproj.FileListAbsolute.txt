@@ -100,3 +100,6 @@ C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\obj\Debug\resou
 C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\obj\Debug\pri.resfiles
 C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\obj\Debug\LanguageQualifiers.txt
 C:\Users\davor\Documents\Visual Studio 2012\Projects\Velpro\App2\obj\Debug\ProjectArchitectures.txt
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro\App2\obj\Debug\Dodaj_korisnika.g.i.cs
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro\App2\obj\Debug\Dodaj_korisnika.g.cs
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro\App2\obj\Debug\Dodaj_korisnika.xaml
