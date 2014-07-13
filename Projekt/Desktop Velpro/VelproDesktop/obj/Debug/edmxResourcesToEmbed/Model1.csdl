@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="T18_DBModel1" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="T18_DBEntities1" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Korisnici" EntityType="T18_DBModel1.Korisnici" />
+    <EntitySet Name="Lista_zelja" EntityType="T18_DBModel1.Lista_zelja" />
+    <AssociationSet Name="FK_Lista_zelja_Korisnici" Association="T18_DBModel1.FK_Lista_zelja_Korisnici">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="Lista_zelja" EntitySet="Lista_zelja" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Korisnici">
+    <Key>
+      <PropertyRef Name="ID_korisnika" />
+    </Key>
+    <Property Name="ID_korisnika" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Prezime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Korisnicko_ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Lozinka" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="E_mail" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Broj_telefona" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Uloga" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Lista_zelja" Relationship="T18_DBModel1.FK_Lista_zelja_Korisnici" FromRole="Korisnici" ToRole="Lista_zelja" />
+  </EntityType>
+  <EntityType Name="Lista_zelja">
+    <Key>
+      <PropertyRef Name="ID_lista_zelja" />
+    </Key>
+    <Property Name="ID_lista_zelja" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_korisnika" Type="Int32" Nullable="false" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Opis" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Korisnici" Relationship="T18_DBModel1.FK_Lista_zelja_Korisnici" FromRole="Lista_zelja" ToRole="Korisnici" />
+  </EntityType>
+  <Association Name="FK_Lista_zelja_Korisnici">
+    <End Role="Korisnici" Type="T18_DBModel1.Korisnici" Multiplicity="1" />
+    <End Role="Lista_zelja" Type="T18_DBModel1.Lista_zelja" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="ID_korisnika" />
+      </Principal>
+      <Dependent Role="Lista_zelja">
+        <PropertyRef Name="ID_korisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

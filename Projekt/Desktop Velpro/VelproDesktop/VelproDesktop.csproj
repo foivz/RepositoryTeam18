@@ -1,0 +1,583 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB392BDB-DB9C-4C35-999B-8C564FD25DF7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VelproDesktop</RootNamespace>
+    <AssemblyName>VelproDesktop</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AktivneNarudzbe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AktivneNarudzbe.Designer.cs">
+      <DependentUpon>AktivneNarudzbe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArhivaNarudzbi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ArhivaNarudzbi.Designer.cs">
+      <DependentUpon>ArhivaNarudzbi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Artikli.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BazaPodataka.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BazaPodataka.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BazaPodataka.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="BazaPodataka.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BazaPodataka.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="BrisiKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrisiKorisnika.Designer.cs">
+      <DependentUpon>BrisiKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrisiZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrisiZaposlenika.Designer.cs">
+      <DependentUpon>BrisiZaposlenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dobavljaci.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="DodajKorisnika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajKorisnika.Designer.cs">
+      <DependentUpon>DodajKorisnika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DodajZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DodajZaposlenika.Designer.cs">
+      <DependentUpon>DodajZaposlenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dodaj_Narudzbu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodaj_Narudzbu.Designer.cs">
+      <DependentUpon>Dodaj_Narudzbu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Korisnici.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ListaZelja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaZelja.Designer.cs">
+      <DependentUpon>ListaZelja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lista_zelja.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu.Designer.cs">
+      <DependentUpon>menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Naruciti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Naruciti.Designer.cs">
+      <DependentUpon>Naruciti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Narudzbenice.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Skladiste.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Skladiste.Designer.cs">
+      <DependentUpon>Skladiste.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_helpdiagrams_Result.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Statistike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistike.Designer.cs">
+      <DependentUpon>Statistike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stavke_narudzbe.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sysdiagrams.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="T18_DBDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>T18_DBDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Uloge.cs">
+      <DependentUpon>BazaPodataka.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zaposlenici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zaposlenici.Designer.cs">
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AktivneNarudzbe.resx">
+      <DependentUpon>AktivneNarudzbe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArhivaNarudzbi.resx">
+      <DependentUpon>ArhivaNarudzbi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrisiKorisnika.resx">
+      <DependentUpon>BrisiKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrisiZaposlenika.resx">
+      <DependentUpon>BrisiZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajKorisnika.resx">
+      <DependentUpon>DodajKorisnika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DodajZaposlenika.resx">
+      <DependentUpon>DodajZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dodaj_Narudzbu.resx">
+      <DependentUpon>Dodaj_Narudzbu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaZelja.resx">
+      <DependentUpon>ListaZelja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu.resx">
+      <DependentUpon>menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Naruciti.resx">
+      <DependentUpon>Naruciti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Skladiste.resx">
+      <DependentUpon>Skladiste.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistike.resx">
+      <DependentUpon>Statistike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zaposlenici.resx">
+      <DependentUpon>Zaposlenici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="BazaPodataka.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>BazaPodataka.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="BazaPodataka.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BazaPodataka.edmx</DependentUpon>
+      <LastGenOutput>BazaPodataka.Context.cs</LastGenOutput>
+    </None>
+    <None Include="BazaPodataka.edmx.diagram">
+      <DependentUpon>BazaPodataka.edmx</DependentUpon>
+    </None>
+    <None Include="BazaPodataka.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>BazaPodataka.edmx</DependentUpon>
+      <LastGenOutput>BazaPodataka.cs</LastGenOutput>
+    </None>
+    <EntityDeploy Include="Model1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="Model1.edmx.diagram">
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="Model1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model1.cs</LastGenOutput>
+      <DependentUpon>Model1.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\T18_DBEntities.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="T18_DBDataSet.xsc">
+      <DependentUpon>T18_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet.xss">
+      <DependentUpon>T18_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet1.xsc">
+      <DependentUpon>T18_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet1.xss">
+      <DependentUpon>T18_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet10.xsc">
+      <DependentUpon>T18_DBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet10.xss">
+      <DependentUpon>T18_DBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet11.xsc">
+      <DependentUpon>T18_DBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet11.xss">
+      <DependentUpon>T18_DBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet12.xsc">
+      <DependentUpon>T18_DBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet12.xss">
+      <DependentUpon>T18_DBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet13.xsc">
+      <DependentUpon>T18_DBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet13.xss">
+      <DependentUpon>T18_DBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet14.xsc">
+      <DependentUpon>T18_DBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet14.xss">
+      <DependentUpon>T18_DBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet15.xsc">
+      <DependentUpon>T18_DBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet15.xss">
+      <DependentUpon>T18_DBDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet16.xsc">
+      <DependentUpon>T18_DBDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet16.xss">
+      <DependentUpon>T18_DBDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet2.xsc">
+      <DependentUpon>T18_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet2.xss">
+      <DependentUpon>T18_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet3.xsc">
+      <DependentUpon>T18_DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet3.xss">
+      <DependentUpon>T18_DBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet4.xsc">
+      <DependentUpon>T18_DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet4.xss">
+      <DependentUpon>T18_DBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet5.xsc">
+      <DependentUpon>T18_DBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet5.xss">
+      <DependentUpon>T18_DBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet6.xsc">
+      <DependentUpon>T18_DBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet6.xss">
+      <DependentUpon>T18_DBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet7.xsc">
+      <DependentUpon>T18_DBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet7.xss">
+      <DependentUpon>T18_DBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet8.xsc">
+      <DependentUpon>T18_DBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet8.xss">
+      <DependentUpon>T18_DBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet9.xsc">
+      <DependentUpon>T18_DBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="T18_DBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>T18_DBDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="T18_DBDataSet9.xss">
+      <DependentUpon>T18_DBDataSet9.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
