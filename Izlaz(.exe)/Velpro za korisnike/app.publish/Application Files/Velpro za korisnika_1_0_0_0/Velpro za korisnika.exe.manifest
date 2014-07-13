@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Velpro za korisnika.exe" version="1.0.0.0" publicKeyToken="e7c79da41b634ead" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Velpro za korisnika" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Velpro za korisnika.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5062304">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ME/k2DGnnEXXRv8PbQPIB/oznXx46EIYOYjb9nQ2US8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="580768">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iU2DBXuEJ4l5e2Up1a2QeNBvmdWHbhB91cwMpi/p8Nc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Velpro za korisnika.exe" size="758784">
+      <assemblyIdentity name="Velpro za korisnika" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>QwmekxDxJFnf/cIsUBFSCh3uz3BsmGdyK2g2qACFMuA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Properties\logo-VELPRO.jpg" size="616652">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x80rM5pTN+E67fFqm2ABzmaMU0OIkThVvnA9fj6wu3U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Velpro za korisnika.exe.config" size="1763">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lVwmwk3FA/YdAj2Ng61N08DCaec4MPC+rmAqgVZf4l4=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ANDRO-PC\Andro" issuerKeyHash="70bce81c6e8840ead3f990216bf1fb06de456f7f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ik0tzP21JJRk3SjPwn23ZCRtazG4kkvILQrZzZh0qHU=</DigestValue></Reference></SignedInfo><SignatureValue>KBRaFiZOQGxySMkK0nEsl34ewMPxuQleAtqBCKvNefODzYBMhpVA9WIAluN6iCg2siyQ+o2tgHnd862IiJEdnHSHg33u4ATysW8O1LZ3o88MNdJ6CXj+euBaRnHSQs0C289cIZZOCCn81EbsZe58uphbKRpIt4lGMDIc7nfbwNU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nf7CnunsWzotvx/H8odlcNDeNhdnAF4BXtUeMlqy4fX2CMJAbYRjEueioYmN4ezE3ZUyFjLnzgJhgwRdmVbdutDi6ehc079jOoL9SLpDa1xHqZ6vwzfAN8YsAKKDjxK2Ra7S1ov9doJao2A0awenZ+UHaLcy7kR7nr1xcOT3yH8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="75a87498cdd90a2dc84b92b8316b6d2464b77dc2cf28dd649424b5fdcc2d4d8a" Description="" Url=""><as:assemblyIdentity name="Velpro za korisnika.exe" version="1.0.0.0" publicKeyToken="e7c79da41b634ead" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANDRO-PC\Andro</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>aDuasFvrg4NsKPsEeflsHECLl09vETMil7OKkkQ7Q+g=</DigestValue></Reference></SignedInfo><SignatureValue>MQVVU8NA17ywWl4zT16wi86xgqJSF8iDTlZklzplXFCQ1/PRCR9zv8ilFra0sEVV3J5FKYO4b9OJo4xXylFlVVmbmYKNL4vVrFnWIg48o0vRdmBL+8TtPgQoURMaR2aj5lYRGNsvSGwP1+a3mjDbsT7z7t1V2Kx/MoK+tGwMLEw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nf7CnunsWzotvx/H8odlcNDeNhdnAF4BXtUeMlqy4fX2CMJAbYRjEueioYmN4ezE3ZUyFjLnzgJhgwRdmVbdutDi6ehc079jOoL9SLpDa1xHqZ6vwzfAN8YsAKKDjxK2Ra7S1ov9doJao2A0awenZ+UHaLcy7kR7nr1xcOT3yH8=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB0TCCATqgAwIBAgIQI5aaiKLPM4tK9zn0j5VKfzANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDHhwAQQBOAEQAUgBPAC0AUABDAFwAQQBuAGQAcgBvMB4XDTE0MDcxMzE3NDU0M1oXDTE1MDcxMzIzNDU0M1owJzElMCMGA1UEAx4cAEEATgBEAFIATwAtAFAAQwBcAEEAbgBkAHIAbzCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAnf7CnunsWzotvx/H8odlcNDeNhdnAF4BXtUeMlqy4fX2CMJAbYRjEueioYmN4ezE3ZUyFjLnzgJhgwRdmVbdutDi6ehc079jOoL9SLpDa1xHqZ6vwzfAN8YsAKKDjxK2Ra7S1ov9doJao2A0awenZ+UHaLcy7kR7nr1xcOT3yH8CAwEAATANBgkqhkiG9w0BAQsFAAOBgQBP/c6ULW6FW1LRkIjCCc3x6bMZxf2nXby0R3OvZnPNjHeQTs72OCsdIp1p15RXlMPPN75UCJqpfZD5xRfXpWz5jK9+XFvIbyDqqSfsndsb5nLBHh59VZX2LvQXwdR9WH6gRLtzYuJ52yM+CjIYAe3Hx59uyzaOgTCFnVZh3bbJqg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
