@@ -49,22 +49,46 @@
             	<Run Text="aposlenike"/>
             </TextBlock>
         </Grid>
-        <Button x:ConnectionId='1' x:Name="Dodaj_zap" Content="Dodaj zaposlenika" HorizontalAlignment="Left" Margin="210,90,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                        >
+        <Button x:ConnectionId='1' x:Name="Dodaj_zap" Content="Dodaj zaposlenika" HorizontalAlignment="Left" Margin="210,90,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                         RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta_tekst}"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='2' x:Name="Brisi_zap" Content="Briši zaposlenika" HorizontalAlignment="Left" Margin="210,362,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                        >
+        <Button x:ConnectionId='2' x:Name="Brisi_zap" Content="Briši zaposlenika" HorizontalAlignment="Left" Margin="210,362,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                         RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta_tekst}"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='3' x:Name="Dodaj_kor" Content="Dodaj korisnika" HorizontalAlignment="Stretch" Margin="782,90,210,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181"                        >
+        <Button x:ConnectionId='3' x:Name="Dodaj_kor" Content="Dodaj korisnika" HorizontalAlignment="Stretch" Margin="782,90,210,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181"                         RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta_tekst}"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='4' x:Name="Brisi_kor" Content="Briši korisnika" HorizontalAlignment="Left" Margin="782,362,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                        >
+        <Button x:ConnectionId='4' x:Name="Brisi_kor" Content="Briši korisnika" HorizontalAlignment="Left" Margin="782,362,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" FontSize="20" Height="181" Width="374"                         RenderTransformOrigin="0.5,0.5">
+            <Button.Projection>
+                <PlaneProjection/>
+            </Button.Projection>
+            <Button.RenderTransform>
+                <CompositeTransform/>
+            </Button.RenderTransform>
             <Button.Background>
                 <SolidColorBrush Color="{StaticResource Zuta_tekst}"/>
             </Button.Background>

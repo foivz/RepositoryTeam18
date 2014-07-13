@@ -90,7 +90,7 @@
                 <SolidColorBrush Color="{StaticResource Zuta_tekst}"/>
             </Button.Background>
         </Button>
-        <Button x:ConnectionId='5' x:Name="Naruciti_dob" Content="Naručiti od dobavlača" HorizontalAlignment="Left" Margin="699,106,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" Height="175" Width="289" RenderTransformOrigin="0.5,0.5" FontSize="20"                           >
+        <Button x:ConnectionId='5' x:Name="Naruciti_dob" Content="Naručiti od dobavljača" HorizontalAlignment="Left" Margin="699,106,0,0" Grid.Row="1" VerticalAlignment="Top" Foreground="Black" Height="175" Width="289" RenderTransformOrigin="0.5,0.5" FontSize="20"                           >
             <Button.Projection>
                 <PlaneProjection/>
             </Button.Projection>

@@ -1,89 +1,89 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DAVOR-PC</Machine>
-    <WindowsUser>davor</WindowsUser>
+    <Machine>ANDRO-PC</Machine>
+    <WindowsUser>Andro</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.exe">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.exe">
       <PackagePath>Desktop Velpro.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.pdb">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Desktop Velpro.pdb">
       <PackagePath>Desktop Velpro.pdb</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\Logo.png">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\SmallLogo.png">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\Assets\SmallLogo.png">
       <PackagePath>Assets\SmallLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\SplashScreen.png">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\Assets\SplashScreen.png">
       <PackagePath>Assets\SplashScreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\Common\ReadMe.txt">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\Common\ReadMe.txt">
       <PackagePath>Common\ReadMe.txt</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\App.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\App.xaml">
       <PackagePath>App.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Azuriraj.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Azuriraj.xaml">
       <PackagePath>Azuriraj.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_korisnika.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_korisnika.xaml">
       <PackagePath>Brisi_korisnika.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_zaposlenika.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Brisi_zaposlenika.xaml">
       <PackagePath>Brisi_zaposlenika.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Common\StandardStyles.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Common\StandardStyles.xaml">
       <PackagePath>Common\StandardStyles.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_korisnika.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_korisnika.xaml">
       <PackagePath>Dodaj_korisnika.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_zaposlenika.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Dodaj_zaposlenika.xaml">
       <PackagePath>Dodaj_zaposlenika.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Glavna_forma.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Glavna_forma.xaml">
       <PackagePath>Glavna_forma.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Lista_zelja.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Lista_zelja.xaml">
       <PackagePath>Lista_zelja.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\MainPage.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Naruciti_dobavljac.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Naruciti_dobavljac.xaml">
       <PackagePath>Naruciti_dobavljac.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_aktivne.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_aktivne.xaml">
       <PackagePath>Pregled_aktivne.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_arhiva.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_arhiva.xaml">
       <PackagePath>Pregled_arhiva.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_skladiste.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Pregled_skladiste.xaml">
       <PackagePath>Pregled_skladiste.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\Statistike.xaml">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\Statistike.xaml">
       <PackagePath>Statistike.xaml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\davor\documents\visual studio 2012\Projects\Desktop Velpro\Desktop Velpro\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Andro\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\Desktop Velpro\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

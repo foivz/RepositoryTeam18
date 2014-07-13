@@ -1,0 +1,85 @@
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+c:\users\mctino\documents\visual studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Kosarica.resources
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Artikl.resources
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+C:\Users\McTino\Documents\Visual Studio 2013\Projects\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+H:\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+H:\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+H:\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Artikl.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Kosarica.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+C:\Users\Andro\Dropbox\PI projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\McTino\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ArtikliKosarica.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ArtikliKosarica.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
+F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ArtikliKosarica.resources
