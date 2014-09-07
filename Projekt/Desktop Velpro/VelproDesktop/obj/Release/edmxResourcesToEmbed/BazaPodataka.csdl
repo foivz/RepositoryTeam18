@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="T18_DBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="T18_DBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Artikli" EntityType="T18_DBModel.Artikli" />
+    <EntitySet Name="Dobavljaci" EntityType="T18_DBModel.Dobavljaci" />
+    <EntitySet Name="Korisnici" EntityType="T18_DBModel.Korisnici" />
+    <EntitySet Name="Lista_zelja" EntityType="T18_DBModel.Lista_zelja" />
+    <EntitySet Name="Narudzbenice" EntityType="T18_DBModel.Narudzbenice" />
+    <EntitySet Name="Stavke_narudzbe" EntityType="T18_DBModel.Stavke_narudzbe" />
+    <EntitySet Name="sysdiagrams" EntityType="T18_DBModel.sysdiagrams" />
+    <EntitySet Name="Uloge" EntityType="T18_DBModel.Uloge" />
+    <AssociationSet Name="FK_Stavke_narudzbe_Artikli" Association="T18_DBModel.FK_Stavke_narudzbe_Artikli">
+      <End Role="Artikli" EntitySet="Artikli" />
+      <End Role="Stavke_narudzbe" EntitySet="Stavke_narudzbe" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Korisnici_Uloge" Association="T18_DBModel.FK_Korisnici_Uloge">
+      <End Role="Uloge" EntitySet="Uloge" />
+      <End Role="Korisnici" EntitySet="Korisnici" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Lista_zelja_Korisnici" Association="T18_DBModel.FK_Lista_zelja_Korisnici">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="Lista_zelja" EntitySet="Lista_zelja" />
+    </AssociationSet>
+    <AssociationSet Name="fk_Narudzbenica_Korisnici1" Association="T18_DBModel.fk_Narudzbenica_Korisnici1">
+      <End Role="Korisnici" EntitySet="Korisnici" />
+      <End Role="Narudzbenice" EntitySet="Narudzbenice" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Stavke_narudzbe_Narudzbenice" Association="T18_DBModel.FK_Stavke_narudzbe_Narudzbenice">
+      <End Role="Narudzbenice" EntitySet="Narudzbenice" />
+      <End Role="Stavke_narudzbe" EntitySet="Stavke_narudzbe" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(T18_DBModel.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(T18_DBModel.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <AssociationSet Name="FK_Narudzbenice_Dobavljaci" Association="T18_DBModel.FK_Narudzbenice_Dobavljaci">
+      <End Role="Dobavljaci" EntitySet="Dobavljaci" />
+      <End Role="Narudzbenice" EntitySet="Narudzbenice" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Artikli">
+    <Key>
+      <PropertyRef Name="ID_artikla" />
+    </Key>
+    <Property Name="ID_artikla" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv_artikla" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Cijena_artikla" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Dostupna_kolicina" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="Opis_artikla" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Stavke_narudzbe" Relationship="T18_DBModel.FK_Stavke_narudzbe_Artikli" FromRole="Artikli" ToRole="Stavke_narudzbe" />
+  </EntityType>
+  <EntityType Name="Dobavljaci">
+    <Key>
+      <PropertyRef Name="ID_dobavljaca" />
+    </Key>
+    <Property Name="ID_dobavljaca" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv_dobavljaca" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="E_mail_dobavljaca" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Narudzbenice1" Relationship="T18_DBModel.FK_Narudzbenice_Dobavljaci" FromRole="Dobavljaci" ToRole="Narudzbenice" />
+  </EntityType>
+  <EntityType Name="Korisnici">
+    <Key>
+      <PropertyRef Name="ID_korisnika" />
+    </Key>
+    <Property Name="ID_korisnika" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Prezime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Korisnicko_ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Lozinka" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="E_mail" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Broj_telefona" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+    <Property Name="Uloga" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Uloge" Relationship="T18_DBModel.FK_Korisnici_Uloge" FromRole="Korisnici" ToRole="Uloge" />
+    <NavigationProperty Name="Lista_zelja" Relationship="T18_DBModel.FK_Lista_zelja_Korisnici" FromRole="Korisnici" ToRole="Lista_zelja" />
+    <NavigationProperty Name="Narudzbenice" Relationship="T18_DBModel.fk_Narudzbenica_Korisnici1" FromRole="Korisnici" ToRole="Narudzbenice" />
+  </EntityType>
+  <EntityType Name="Lista_zelja">
+    <Key>
+      <PropertyRef Name="ID_lista_zelja" />
+    </Key>
+    <Property Name="ID_lista_zelja" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="ID_korisnika" Type="Int32" Nullable="false" />
+    <Property Name="Naziv" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+    <Property Name="Opis" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Korisnici" Relationship="T18_DBModel.FK_Lista_zelja_Korisnici" FromRole="Lista_zelja" ToRole="Korisnici" />
+  </EntityType>
+  <EntityType Name="Narudzbenice">
+    <Key>
+      <PropertyRef Name="ID_narudzbenice" />
+    </Key>
+    <Property Name="ID_narudzbenice" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Adresa_dostave" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <Property Name="Datum_i_vrijeme" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ID_korisnika" Type="Int32" Nullable="false" />
+    <Property Name="Aktivna" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Korisnici" Relationship="T18_DBModel.fk_Narudzbenica_Korisnici1" FromRole="Narudzbenice" ToRole="Korisnici" />
+    <NavigationProperty Name="Stavke_narudzbe" Relationship="T18_DBModel.FK_Stavke_narudzbe_Narudzbenice" FromRole="Narudzbenice" ToRole="Stavke_narudzbe" />
+    <Property Type="Int32" Name="ID_dobavljaca" />
+    <NavigationProperty Name="Dobavljaci1" Relationship="T18_DBModel.FK_Narudzbenice_Dobavljaci" FromRole="Narudzbenice" ToRole="Dobavljaci" />
+  </EntityType>
+  <EntityType Name="Stavke_narudzbe">
+    <Key>
+      <PropertyRef Name="ID_narudzbenice" />
+      <PropertyRef Name="ID_artikla" />
+    </Key>
+    <Property Name="ID_narudzbenice" Type="Int32" Nullable="false" />
+    <Property Name="ID_artikla" Type="Int32" Nullable="false" />
+    <Property Name="Kolicina" Type="Decimal" Nullable="false" Scale="0" Precision="18" />
+    <NavigationProperty Name="Artikli" Relationship="T18_DBModel.FK_Stavke_narudzbe_Artikli" FromRole="Stavke_narudzbe" ToRole="Artikli" />
+    <NavigationProperty Name="Narudzbenice" Relationship="T18_DBModel.FK_Stavke_narudzbe_Narudzbenice" FromRole="Stavke_narudzbe" ToRole="Narudzbenice" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" Unicode="true" FixedLength="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Uloge">
+    <Key>
+      <PropertyRef Name="ID_Uloge" />
+    </Key>
+    <Property Name="ID_Uloge" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv_uloge" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+    <NavigationProperty Name="Korisnici" Relationship="T18_DBModel.FK_Korisnici_Uloge" FromRole="Uloge" ToRole="Korisnici" />
+  </EntityType>
+  <Association Name="FK_Stavke_narudzbe_Artikli">
+    <End Role="Artikli" Type="T18_DBModel.Artikli" Multiplicity="1" />
+    <End Role="Stavke_narudzbe" Type="T18_DBModel.Stavke_narudzbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artikli">
+        <PropertyRef Name="ID_artikla" />
+      </Principal>
+      <Dependent Role="Stavke_narudzbe">
+        <PropertyRef Name="ID_artikla" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Korisnici_Uloge">
+    <End Role="Uloge" Type="T18_DBModel.Uloge" Multiplicity="1" />
+    <End Role="Korisnici" Type="T18_DBModel.Korisnici" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Uloge">
+        <PropertyRef Name="ID_Uloge" />
+      </Principal>
+      <Dependent Role="Korisnici">
+        <PropertyRef Name="Uloga" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Lista_zelja_Korisnici">
+    <End Role="Korisnici" Type="T18_DBModel.Korisnici" Multiplicity="1" />
+    <End Role="Lista_zelja" Type="T18_DBModel.Lista_zelja" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="ID_korisnika" />
+      </Principal>
+      <Dependent Role="Lista_zelja">
+        <PropertyRef Name="ID_korisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_Narudzbenica_Korisnici1">
+    <End Role="Korisnici" Type="T18_DBModel.Korisnici" Multiplicity="1" />
+    <End Role="Narudzbenice" Type="T18_DBModel.Narudzbenice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Korisnici">
+        <PropertyRef Name="ID_korisnika" />
+      </Principal>
+      <Dependent Role="Narudzbenice">
+        <PropertyRef Name="ID_korisnika" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Stavke_narudzbe_Narudzbenice">
+    <End Role="Narudzbenice" Type="T18_DBModel.Narudzbenice" Multiplicity="1" />
+    <End Role="Stavke_narudzbe" Type="T18_DBModel.Stavke_narudzbe" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Narudzbenice">
+        <PropertyRef Name="ID_narudzbenice" />
+      </Principal>
+      <Dependent Role="Stavke_narudzbe">
+        <PropertyRef Name="ID_narudzbenice" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <Association Name="FK_Narudzbenice_Dobavljaci">
+    <End Type="T18_DBModel.Dobavljaci" Role="Dobavljaci" Multiplicity="0..1" />
+    <End Type="T18_DBModel.Narudzbenice" Role="Narudzbenice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Dobavljaci">
+        <PropertyRef Name="ID_dobavljaca" />
+      </Principal>
+      <Dependent Role="Narudzbenice">
+        <PropertyRef Name="ID_dobavljaca" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

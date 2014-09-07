@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="T18_DBModel1.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="T18_DBModel1StoreContainer">
+          <EntitySet Name="Korisnici" EntityType="T18_DBModel1.Store.Korisnici" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Lista_zelja" EntityType="T18_DBModel1.Store.Lista_zelja" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Lista_zelja_Korisnici" Association="T18_DBModel1.Store.FK_Lista_zelja_Korisnici">
+            <End Role="Korisnici" EntitySet="Korisnici" />
+            <End Role="Lista_zelja" EntitySet="Lista_zelja" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Korisnici">
+          <Key>
+            <PropertyRef Name="ID_korisnika" />
+          </Key>
+          <Property Name="ID_korisnika" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ime" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="Prezime" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="Korisnicko_ime" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="Lozinka" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="E-mail" Type="varchar" Nullable="false" MaxLength="45" />
+          <Property Name="Broj_telefona" Type="varchar" Nullable="false" MaxLength="15" />
+          <Property Name="Uloga" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Lista_zelja">
+          <Key>
+            <PropertyRef Name="ID_lista_zelja" />
+          </Key>
+          <Property Name="ID_lista_zelja" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ID_korisnika" Type="int" Nullable="false" />
+          <Property Name="Naziv" Type="varchar" Nullable="false" MaxLength="25" />
+          <Property Name="Opis" Type="varchar" MaxLength="200" />
+        </EntityType>
+        <Association Name="FK_Lista_zelja_Korisnici">
+          <End Role="Korisnici" Type="T18_DBModel1.Store.Korisnici" Multiplicity="1" />
+          <End Role="Lista_zelja" Type="T18_DBModel1.Store.Lista_zelja" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Korisnici">
+              <PropertyRef Name="ID_korisnika" />
+            </Principal>
+            <Dependent Role="Lista_zelja">
+              <PropertyRef Name="ID_korisnika" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="T18_DBModel1" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="T18_DBEntities1" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Korisnici" EntityType="T18_DBModel1.Korisnici" />
+          <EntitySet Name="Lista_zelja" EntityType="T18_DBModel1.Lista_zelja" />
+          <AssociationSet Name="FK_Lista_zelja_Korisnici" Association="T18_DBModel1.FK_Lista_zelja_Korisnici">
+            <End Role="Korisnici" EntitySet="Korisnici" />
+            <End Role="Lista_zelja" EntitySet="Lista_zelja" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Korisnici">
+          <Key>
+            <PropertyRef Name="ID_korisnika" />
+          </Key>
+          <Property Name="ID_korisnika" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Prezime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Korisnicko_ime" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Lozinka" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="E_mail" Type="String" Nullable="false" MaxLength="45" Unicode="false" FixedLength="false" />
+          <Property Name="Broj_telefona" Type="String" Nullable="false" MaxLength="15" Unicode="false" FixedLength="false" />
+          <Property Name="Uloga" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Lista_zelja" Relationship="T18_DBModel1.FK_Lista_zelja_Korisnici" FromRole="Korisnici" ToRole="Lista_zelja" />
+        </EntityType>
+        <EntityType Name="Lista_zelja">
+          <Key>
+            <PropertyRef Name="ID_lista_zelja" />
+          </Key>
+          <Property Name="ID_lista_zelja" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="ID_korisnika" Type="Int32" Nullable="false" />
+          <Property Name="Naziv" Type="String" Nullable="false" MaxLength="25" Unicode="false" FixedLength="false" />
+          <Property Name="Opis" Type="String" MaxLength="200" Unicode="false" FixedLength="false" />
+          <NavigationProperty Name="Korisnici" Relationship="T18_DBModel1.FK_Lista_zelja_Korisnici" FromRole="Lista_zelja" ToRole="Korisnici" />
+        </EntityType>
+        <Association Name="FK_Lista_zelja_Korisnici">
+          <End Role="Korisnici" Type="T18_DBModel1.Korisnici" Multiplicity="1" />
+          <End Role="Lista_zelja" Type="T18_DBModel1.Lista_zelja" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Korisnici">
+              <PropertyRef Name="ID_korisnika" />
+            </Principal>
+            <Dependent Role="Lista_zelja">
+              <PropertyRef Name="ID_korisnika" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="T18_DBModel1StoreContainer" CdmEntityContainer="T18_DBEntities1">
+          <EntitySetMapping Name="Korisnici">
+            <EntityTypeMapping TypeName="T18_DBModel1.Korisnici">
+              <MappingFragment StoreEntitySet="Korisnici">
+                <ScalarProperty Name="ID_korisnika" ColumnName="ID_korisnika" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+                <ScalarProperty Name="Korisnicko_ime" ColumnName="Korisnicko_ime" />
+                <ScalarProperty Name="Lozinka" ColumnName="Lozinka" />
+                <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+                <ScalarProperty Name="Broj_telefona" ColumnName="Broj_telefona" />
+                <ScalarProperty Name="Uloga" ColumnName="Uloga" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Lista_zelja">
+            <EntityTypeMapping TypeName="T18_DBModel1.Lista_zelja">
+              <MappingFragment StoreEntitySet="Lista_zelja">
+                <ScalarProperty Name="ID_lista_zelja" ColumnName="ID_lista_zelja" />
+                <ScalarProperty Name="ID_korisnika" ColumnName="ID_korisnika" />
+                <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+                <ScalarProperty Name="Opis" ColumnName="Opis" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="T18_DBModel1StoreContainer" CdmEntityContainer="T18_DBEntities1">
+    <EntitySetMapping Name="Korisnici">
+      <EntityTypeMapping TypeName="T18_DBModel1.Korisnici">
+        <MappingFragment StoreEntitySet="Korisnici">
+          <ScalarProperty Name="ID_korisnika" ColumnName="ID_korisnika" />
+          <ScalarProperty Name="Ime" ColumnName="Ime" />
+          <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+          <ScalarProperty Name="Korisnicko_ime" ColumnName="Korisnicko_ime" />
+          <ScalarProperty Name="Lozinka" ColumnName="Lozinka" />
+          <ScalarProperty Name="E_mail" ColumnName="E-mail" />
+          <ScalarProperty Name="Broj_telefona" ColumnName="Broj_telefona" />
+          <ScalarProperty Name="Uloga" ColumnName="Uloga" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Lista_zelja">
+      <EntityTypeMapping TypeName="T18_DBModel1.Lista_zelja">
+        <MappingFragment StoreEntitySet="Lista_zelja">
+          <ScalarProperty Name="ID_lista_zelja" ColumnName="ID_lista_zelja" />
+          <ScalarProperty Name="ID_korisnika" ColumnName="ID_korisnika" />
+          <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+          <ScalarProperty Name="Opis" ColumnName="Opis" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
