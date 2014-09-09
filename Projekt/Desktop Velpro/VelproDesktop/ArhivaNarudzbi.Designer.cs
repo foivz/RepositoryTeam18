@@ -137,6 +137,7 @@
             // 
             this.Ispis.AllowUserToAddRows = false;
             this.Ispis.AllowUserToDeleteRows = false;
+            this.Ispis.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Ispis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Ispis.Location = new System.Drawing.Point(12, 216);
             this.Ispis.MultiSelect = false;
