@@ -51,28 +51,4 @@ D:\Programi\Github\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Deb
 D:\Programi\Github\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Zaposlenici.resources
 D:\Programi\Github\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.csproj.GenerateResource.Cache
 >>>>>>> 31fa76af1e551c60af8a469f14a0a83e286d7e93
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\bin\Debug\Velpro desktop.exe.config
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\bin\Debug\Velpro desktop.exe
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\bin\Debug\EntityFramework.dll
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\bin\Debug\EntityFramework.xml
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.csprojResolveAssemblyReference.cache
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.AktivneNarudzbe.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.ArhivaNarudzbi.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.BrisiKorisnika.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.BrisiZaposlenika.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.DodajKorisnika.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.DodajZaposlenika.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Dodaj_Narudzbu.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Form1.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.ListaZelja.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.menu.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Naruciti.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.OtpremaRobe.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.PrimanjeRobe.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Properties.Resources.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Skladiste.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Skladistenje.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Statistike.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.Zaposlenici.resources
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\VelproDesktop.csproj.GenerateResource.Cache
-C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Desktop Velpro\VelproDesktop\obj\Debug\Velpro desktop.exe
+C:\Users\davor\Documents\Visual Studio 2012\Projects\VelproDesktop\VelproDesktop\obj\Debug\VelproDesktop.csprojResolveAssemblyReference.cache

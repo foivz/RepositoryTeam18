@@ -88,8 +88,10 @@
             this.Lista.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.Lista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Lista.Location = new System.Drawing.Point(12, 75);
+            this.Lista.MultiSelect = false;
             this.Lista.Name = "Lista";
             this.Lista.ReadOnly = true;
+            this.Lista.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.Lista.Size = new System.Drawing.Size(697, 292);
             this.Lista.TabIndex = 0;
             this.Lista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);

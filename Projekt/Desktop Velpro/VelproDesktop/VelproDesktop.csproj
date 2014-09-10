@@ -187,23 +187,11 @@
     <Compile Include="Skladiste.Designer.cs">
       <DependentUpon>Skladiste.cs</DependentUpon>
     </Compile>
-    <Compile Include="Skladistenje.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Skladistenje.Designer.cs">
-      <DependentUpon>Skladistenje.cs</DependentUpon>
-    </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagrams_Result.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Statistike.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Statistike.Designer.cs">
-      <DependentUpon>Statistike.cs</DependentUpon>
     </Compile>
     <Compile Include="Stavke_narudzbe.cs">
       <DependentUpon>BazaPodataka.tt</DependentUpon>
@@ -360,12 +348,6 @@
     </Compile>
     <EmbeddedResource Include="Skladiste.resx">
       <DependentUpon>Skladiste.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Skladistenje.resx">
-      <DependentUpon>Skladistenje.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Statistike.resx">
-      <DependentUpon>Statistike.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zaposlenici.resx">
       <DependentUpon>Zaposlenici.cs</DependentUpon>

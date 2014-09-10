@@ -56,8 +56,6 @@ namespace VelproDesktop
 
         private void Statistika_Click(object sender, EventArgs e)
         {
-            Statistike formaStatistike = new Statistike();
-            formaStatistike.Show();
         }
 
         private void menu_Load(object sender, EventArgs e)
