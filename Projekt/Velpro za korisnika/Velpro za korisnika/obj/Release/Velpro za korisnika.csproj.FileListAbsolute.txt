@@ -1,0 +1,15 @@
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\Velpro za korisnika.exe.config
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\Velpro za korisnika.exe
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\Velpro za korisnika.pdb
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\EntityFramework.dll
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\EntityFramework.xml
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro_za_korisnika.ArtikliKosarica.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro_za_korisnika.Prijava.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro_za_korisnika.Properties.Resources.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro za korisnika.csproj.GenerateResource.Cache
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro za korisnika.exe
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Release\Velpro za korisnika.pdb

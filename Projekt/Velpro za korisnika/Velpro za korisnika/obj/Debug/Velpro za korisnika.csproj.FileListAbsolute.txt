@@ -83,3 +83,19 @@ C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Vel
 C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
 C:\Users\Pero Pero\Desktop\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
 F:\6. semestar\PI\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ArtikliKosarica.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe.config
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.exe
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.pdb
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.exe
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\Velpro za korisnika.pdb
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.dll
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.xml
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csprojResolveAssemblyReference.cache
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ArtikliKosarica.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.GlavnaForma.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.ListaZelja.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Prijava.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro_za_korisnika.Properties.Resources.resources
+C:\Users\davor\Documents\GitHub\RepositoryTeam18\Projekt\Velpro za korisnika\Velpro za korisnika\obj\Debug\Velpro za korisnika.csproj.GenerateResource.Cache
